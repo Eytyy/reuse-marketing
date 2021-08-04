@@ -4,7 +4,7 @@ export default function resolvePreviewUrl(document) {
   const baseUrl =
     env === 'development'
       ? 'http://localhost:8000/preview'
-      : 'https://reuse-marketing.netlify.app/preview';
+      : 'https://reuse-marketing-studio.netlify.app/preview';
   switch (document._type) {
     case 'page':
       return !document.slug || !document.slug.current
