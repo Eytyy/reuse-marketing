@@ -10,6 +10,7 @@
     "gatsby-image": "^3.8.0",
     "gatsby-plugin-create-client-paths": "^3.10.0",
     "gatsby-plugin-image": "^1.8.0",
+    "gatsby-plugin-netlify": "^3.11.0",
     "gatsby-plugin-offline": "^4.8.0",
     "gatsby-source-filesystem": "^3.8.0",
     "prop-types": "^15.7.2",

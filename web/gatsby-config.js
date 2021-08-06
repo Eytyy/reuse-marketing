@@ -14,10 +14,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-create-client-paths",
-      options: { prefixes: ["/preview/*"] },
-    },
-    {
       resolve: "gatsby-source-sanity",
       options: {
         ...clientConfig.sanity,
@@ -25,6 +21,11 @@ module.exports = {
         overlayDrafts: !isProd,
       },
     },
+    {
+      resolve: "gatsby-plugin-create-client-paths",
+      options: { prefixes: ["/preview/*/*"] },
+    },
+    `gatsby-plugin-netlify`,
     "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     {
