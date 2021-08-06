@@ -15,8 +15,7 @@
   "private": true,
   "devDependencies": {
     "@sanity/cli": "^1.149.16",
-    "lerna": "^3.22.1",
-    "netlify-cli": "^6.0.0"
+    "lerna": "^3.22.1"
   },
   "dependencies": {}
 }
