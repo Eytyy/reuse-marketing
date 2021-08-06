@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-create-client-paths",
-      options: { prefixes: ["/preview/*/*"] },
+      options: { prefixes: ["/preview/*"] },
     },
     `gatsby-plugin-netlify`,
     "gatsby-plugin-emotion",
