@@ -29,6 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-netlify`,
       options: {
         mergeSecurityHeaders: true,
+        mergeLinkHeaders: true,
       },
     },
     "gatsby-plugin-emotion",
