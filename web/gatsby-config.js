@@ -25,7 +25,12 @@ module.exports = {
       resolve: "gatsby-plugin-create-client-paths",
       options: { prefixes: ["/preview/*"] },
     },
-    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        mergeSecurityHeaders: true,
+      },
+    },
     "gatsby-plugin-emotion",
     `gatsby-plugin-react-helmet`,
     {
