@@ -1,11 +1,10 @@
 const env = process.env.NODE_ENV || 'development';
 
 export default function resolvePreviewUrl(document) {
-  console.log(document);
   const baseUrl =
     env === 'development'
       ? 'http://localhost:8000/preview'
-      : 'https://reuse-marketing.netlify.app/preview';
+      : 'https://reuse-marketing-preview.netlify.app/preview';
 
   switch (document._type) {
     case 'page':
